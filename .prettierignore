@@ -1,3 +1,4 @@
 /src/app/signup/signup.component.html
 /src/app/forgot-password/forgot-password.component.html
 /src/app/layouts/full/sidebar/sidebar.component.html
+/src/app/material-component/dialog/change-password/change-password.component.html
