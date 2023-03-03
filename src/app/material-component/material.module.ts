@@ -1,15 +1,17 @@
+import { CdkTableModule } from '@angular/cdk/table';
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from '@angular/common';
-import { CdkTableModule } from '@angular/cdk/table';
 
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { MaterialRoutes } from './material.routing';
 import { MaterialModule } from '../shared/material-module';
 import { ViewBillProductsComponent } from './dialog/view-bill-products/view-bill-products.component';
+import { MaterialRoutes } from './material.routing';
+import { ConfirmationComponent } from './dialog/confirmation/confirmation.component';
+import { ChangePasswordComponent } from './dialog/change-password/change-password.component';
 
 @NgModule({
   imports: [
@@ -20,11 +22,9 @@ import { ViewBillProductsComponent } from './dialog/view-bill-products/view-bill
     FormsModule,
     ReactiveFormsModule,
     FlexLayoutModule,
-    CdkTableModule
+    CdkTableModule,
   ],
   providers: [],
-  declarations: [
-    ViewBillProductsComponent    
-  ]
+  declarations: [ViewBillProductsComponent, ConfirmationComponent, ChangePasswordComponent],
 })
 export class MaterialComponentsModule {}
