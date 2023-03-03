@@ -16,6 +16,7 @@ import { MaterialModule } from './shared/material-module';
 import { SharedModule } from './shared/shared.module';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     AppSidebarComponent,
     SignupComponent,
     ForgotPasswordComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
