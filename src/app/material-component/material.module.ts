@@ -12,6 +12,8 @@ import { ViewBillProductsComponent } from './dialog/view-bill-products/view-bill
 import { MaterialRoutes } from './material.routing';
 import { ConfirmationComponent } from './dialog/confirmation/confirmation.component';
 import { ChangePasswordComponent } from './dialog/change-password/change-password.component';
+import { ManageCategoryComponent } from './manage-category/manage-category.component';
+import { CategoryComponent } from './dialog/category/category.component';
 
 @NgModule({
   imports: [
@@ -25,6 +27,6 @@ import { ChangePasswordComponent } from './dialog/change-password/change-passwor
     CdkTableModule,
   ],
   providers: [],
-  declarations: [ViewBillProductsComponent, ConfirmationComponent, ChangePasswordComponent],
+  declarations: [ViewBillProductsComponent, ConfirmationComponent, ChangePasswordComponent, ManageCategoryComponent, CategoryComponent],
 })
 export class MaterialComponentsModule {}

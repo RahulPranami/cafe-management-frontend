@@ -2,3 +2,5 @@
 /src/app/forgot-password/forgot-password.component.html
 /src/app/layouts/full/sidebar/sidebar.component.html
 /src/app/material-component/dialog/change-password/change-password.component.html
+/src/app/material-component/manage-category/manage-category.component.html
+*.component.html
