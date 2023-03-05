@@ -27,6 +27,12 @@ const MENUITEMS = [
     icon: 'list_alt',
     role: '',
   },
+  {
+    state: 'bill',
+    name: 'Viwe Bill',
+    icon: 'import_contacts',
+    role: '',
+  },
 ];
 
 @Injectable()
