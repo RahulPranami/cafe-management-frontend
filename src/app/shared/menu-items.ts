@@ -29,9 +29,15 @@ const MENUITEMS = [
   },
   {
     state: 'bill',
-    name: 'Viwe Bill',
+    name: 'View Bill',
     icon: 'import_contacts',
     role: '',
+  },
+  {
+    state: 'user',
+    name: 'View user',
+    icon: 'people',
+    role: 'admin',
   },
 ];
 
